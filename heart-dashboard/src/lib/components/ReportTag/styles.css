@@ -1,0 +1,44 @@
+.heart-tag {
+  text-align: center;
+  width: max-content;
+  padding-left: 0.75rem
+    /* 12px */
+  ;
+  padding-right: 0.75rem
+    /* 12px */
+  ;
+  margin: 0.125rem
+    /* 2px */
+  ;
+  padding-top: 0.125rem
+    /* 2px */
+  ;
+  padding-bottom: 0.125rem
+    /* 2px */
+  ;
+  font-weight: 500;
+  border-radius: 0.375rem
+    /* 6px */
+  ;
+  text-transform: uppercase;
+}
+
+.heart-tag-green {
+  color: rgb(20 83 45);
+  background-color: rgb(187 247 208);
+}
+
+.heart-tag-red {
+  color: rgb(127 29 29);
+  background-color: rgb(254 202 202);
+}
+
+.heart-tag-yellow {
+  color: rgb(113 63 18);
+  background-color: rgb(254 240 138);
+}
+
+.heart-tag-stone {
+  color: rgb(28 25 23);
+  background-color: rgb(231 229 228);
+}

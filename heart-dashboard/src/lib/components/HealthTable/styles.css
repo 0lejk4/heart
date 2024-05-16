@@ -1,0 +1,44 @@
+.heart-datagrid-wrapper {
+  background-color: white;
+  color: rgba(0, 0, 0, 0.87);
+  border-radius: 10px;
+  border: 1px solid rgb(224, 224, 227);
+  background-clip: padding-box;
+  overflow: hidden;
+}
+
+.heart-datagrid {
+  display: table;
+  width: 100%;
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+.heart-datagrid-header {
+  margin: 0;
+}
+
+.heart-datagrid-row {
+  margin: 0;
+}
+
+.heart-datagrid-cell {
+  display: table-cell;
+  padding: 0.5rem 1rem;
+  text-align: left;
+  border-bottom: 1px solid rgb(224, 224, 224);
+}
+
+th.heart-datagrid-cell {
+  text-transform: uppercase;
+  font-size: 1rem;
+  line-height: 1.5rem;
+  font-weight: 500;
+  color: rgb(82 82 82);
+}
+
+td.heart-datagrid-cell {
+  font-size: 0.875rem;
+  line-height: 1.25rem;
+  color: black;
+}

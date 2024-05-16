@@ -1,0 +1,5 @@
+- **Health**. Choose any Effect, ValidationResult or Error types.
+- **Expressive**. Rich extendable validation syntax
+- **Informative**. Error paths helps understanding where the error occured
+- **Short-circuit**. Accumulate/FailFast validation strategies are supported.
+- **Interop**. Has ZIO and Cats interop modules.

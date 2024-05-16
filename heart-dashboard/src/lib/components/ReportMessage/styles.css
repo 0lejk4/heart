@@ -1,0 +1,11 @@
+.heart-report-message__container {
+    max-width: 20em;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
+
+.heart-report-message {
+    font-size: 0.75rem;
+    line-height: 1rem;
+}

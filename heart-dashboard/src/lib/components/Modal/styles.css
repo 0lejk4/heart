@@ -1,0 +1,57 @@
+.heart-modal {
+    position: fixed;
+    inset: 0;
+    background-color: rgba(0, 0, 0, 0.6);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    transition: all 0.3s ease-in-out;
+    overflow: hidden;
+    z-index: 999;
+    padding: 40px 20px 20px;
+}
+
+.heart-modal__content-wrapper {
+    position: relative;
+}
+
+.heart-modal__content {
+    min-width: 50%;
+    border-radius: 10px;
+    padding: 100px;
+    background-color: #282c34;
+    color: #fff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 2rem;
+}
+
+.heart-modal__close-btn-wrapper {
+    position: absolute;
+    right: 5px;
+    top: 20px;
+}
+
+.heart-modal__close-btn {
+    user-select: none;
+    display: block;
+    align-self: center;
+    cursor: pointer;
+    height: 1.5rem;
+    margin-right: 8px;
+    padding: 2.4px 6.4px 4.8px;
+    font-size: 0px;
+    border-radius: 5px;
+    background-color: rgb(243, 246, 249);
+    border: 1px solid rgb(205, 210, 215);
+}
+
+.heart-modal__close-btn::before {
+    content: "esc";
+    font-size: 0.75rem;
+    letter-spacing: 0.08rem;
+    font-weight: 700;
+    color: rgb(62, 80, 96);
+}
